@@ -26,13 +26,6 @@ module.exports = {
         development: isDevelopment,
       },
     ],
-    [
-      '@babel/preset-typescript',
-      {
-        'isTSX': true,
-        'allExtensions': true,
-      },
-    ],
     envPreset,
   ],
   'plugins': [

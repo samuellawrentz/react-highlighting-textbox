@@ -7,7 +7,6 @@ module.exports = {
     jest: true,
   },
   root: true,
-  parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaVersion: 11,
     sourceType: 'module',
@@ -17,6 +16,7 @@ module.exports = {
   },
   rules: {
     'newline-before-return': 'error',
+    'react/prop-types': 'off',
     'import/no-anonymous-default-export': 0,
   },
 };
