@@ -7,6 +7,8 @@ Do you want to highlight text in a textbox? This is the component for you! This 
 ```bash
 npm install react-highlighting-textbox
 ```
+## Screenshot
+![Demo of the component](./static/highlight.gif "Partial Highlight within textbox")
 
 ## Usage
 
