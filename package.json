@@ -1,14 +1,14 @@
 {
-  "name": "react-rollup-boilerplate",
-  "version": "5.0.0",
-  "description": "Boilerplate for writing React Libraries bundled with Rollup.js to commonJs and ES6 Modules and Storybookt",
-  "author": "Kai Hotz",
+  "name": "react-highlighting-textbox",
+  "version": "1.0.0",
+  "description": "A textbox that can highlight partial words within it.",
+  "author": "Samuel Lawrentz",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git@github.com:KaiHotz/react-rollup-boilerplate.git"
+    "url": "git@github.com:samuellawrentz/react-highlighting-textbox.git"
   },
-  "homepage": "https://github.com/KaiHotz/react-rollup-boilerplate",
+  "homepage": "",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "jsnext:main": "dist/index.es.js",
@@ -47,7 +47,8 @@
     "react-dom": "18.x"
   },
   "dependencies": {
-    "classnames": "^2.3.2"
+    "classnames": "^2.3.2",
+    "react-contenteditable": "^3.2.0"
   },
   "devDependencies": {
     "@babel/core": "^7.22.1",
@@ -142,8 +143,7 @@
     "tslib": "^2.5.2",
     "url-loader": "^4.1.1",
     "webpack": "^5.84.1",
-    "yarn-audit-fix": "^9.3.10",
-    "react-contenteditable": "^3.2.0"
+    "yarn-audit-fix": "^9.3.10"
   },
   "resolutions": {
     "postcss": "^8.4.23",

@@ -1,3 +1,14 @@
 .sam-react-highlight-span {
   color: red;
 }
+.sam-react-highlight-inputbox[contenteditable='true'] {
+  white-space: nowrap;
+  overflow: hidden;
+}
+.sam-react-highlight-inputbox[contenteditable='true'] br {
+  display: none;
+}
+.sam-react-highlight-inputbox[contenteditable='true'] span {
+  display: inline;
+  white-space: nowrap;
+}
