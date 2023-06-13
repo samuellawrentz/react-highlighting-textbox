@@ -28,3 +28,11 @@ class Example extends Component {
 - `word` - The word to highlight
 - `className` - The class name to apply to the textbox
 - `spanClassName` - The class name to apply to the span that highlights the word
+
+## Demo
+
+- Storybook: https://samuellawrentz.github.io/react-highlighting-textbox/?path=/docs/hightlight-inputbox--docs
+
+## npm package
+
+- https://www.npmjs.com/package/react-highlighting-textbox
