@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HighlightInputBox_class test_custom_props 1`] = `ShallowWrapper {}`;
+
+exports[`HighlightInputBox_class test_default_props 1`] = `ShallowWrapper {}`;
+
+exports[`HighlightInputBox_class test_empty_word 1`] = `ShallowWrapper {}`;
+
+exports[`HighlightInputBox_class test_null_value 1`] = `ShallowWrapper {}`;
+
+exports[`HighlightInputBox_class test_word_not_found 1`] = `ShallowWrapper {}`;
+
+exports[`HighlightInputBox_class test_word_too_long 1`] = `ShallowWrapper {}`;

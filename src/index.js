@@ -1,1 +1,1 @@
-export { HightlightInputBox } from './components/HighlightInputBox';
+export { HighlightInputBox } from './components/HighlightInputBox';

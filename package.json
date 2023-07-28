@@ -1,6 +1,6 @@
 {
   "name": "react-highlighting-textbox",
-  "version": "1.0.1",
+  "version": "1.0.8",
   "description": "A textbox that can highlight partial words within it.",
   "author": "Samuel Lawrentz",
   "license": "MIT",
@@ -16,10 +16,6 @@
   "files": [
     "dist"
   ],
-  "engines": {
-    "node": ">=16",
-    "npm": ">=6"
-  },
   "scripts": {
     "start": "NODE_ENV=development BABEL_ENV=development yarn storybook",
     "build": "rimraf dist && NODE_ENV=production BABEL_ENV=production rollup -c",
@@ -97,6 +93,8 @@
     "babel-plugin-transform-react-remove-prop-types": "^0.4.24",
     "babel-preset-react-app": "^10.0.1",
     "css-loader": "^6.8.1",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.7",
     "eslint": "^8.41.0",
     "eslint-config-prettier": "^8.8.0",
     "eslint-config-react-app": "^7.0.1",
@@ -120,9 +118,9 @@
     "postcss-scss": "^4.0.6",
     "prettier": "^2.8.8",
     "process": "^0.11.10",
-    "react": "^18.2.0",
+    "react": "16",
     "react-app-polyfill": "^3.0.0",
-    "react-dom": "^18.2.0",
+    "react-dom": "16",
     "react-test-renderer": "^18.2.0",
     "react-transition-group": "^4.4.5",
     "regenerator-runtime": "^0.13.11",

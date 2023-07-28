@@ -1,14 +1,17 @@
-import { HightlightInputBox } from '.';
+import React from 'react';
+import HighlightInputBox from './index';
 
 export default {
   title: 'Hightlight Inputbox',
-  component: HightlightInputBox,
+  component: HighlightInputBox,
 };
 
-export const Default = {
-  args: {
-    value: 'This is a test',
-    word: 'test',
-    onChange: (value) => console.log(value),
-  },
+const Template = (args) => <HighlightInputBox {...args} />;
+
+export const Basic = Template.bind({});
+Basic.args = {
+  word: 'test',
+  triggerOn: 'change',
+  value: 'This is a test',
+  onChange: (value) => console.log(value),
 };
